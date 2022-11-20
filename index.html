@@ -8,16 +8,20 @@
     <title>Proyecto banderas</title>
     <link rel="stylesheet" href="css/style-ejercicio1-resuelto.css">
     <link rel="stylesheet" href="./css/ocultarBanderas.css">
+    <script src="./javaScrip/js.js" defer></script>
 </head>
 
 <body>
     <h1>Trabajando con banderas</h1>
+
+    <h2>Juan Alberto Sucuc Chuc</h2>
+    
     <form action="#">
         <fieldset>
             <legend>Seleccione bandera a visualizar</legend>
             <label for="selecionar_bandera">Eleja una bandera:</label>
-            <select name="Bandera" id="Banderas">
-                <option value="Bandera" selected disabled>Selecione Bandera</option>
+            <select onclick="mostarBanderas()" name="Banderas" id="Banderas">
+                <option value selected disabled>Selecione Bandera</option>
                 <option value="Guatemala">Guatemala</option>
                 <option value="Nigeria-India">Nigeria, India</option>
                 <option value="Francia">Paises Bajos, Francia</option>

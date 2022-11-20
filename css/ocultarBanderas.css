@@ -18,3 +18,7 @@
 #ejercicio5{
     display: none;
 }
+
+form{
+    display: inline-block;
+}
