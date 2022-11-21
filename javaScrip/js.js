@@ -2,36 +2,42 @@
 
    let banderas = document.getElementById("Banderas");
 
+   let Guatemala = document.getElementById("ejercicio1");
+   let NigeriaIndia = document.getElementById("ejercicio2");
+   let Francia = document.getElementById("ejercicio3");
+   let Suecia = document.getElementById("ejercicio4");
+   let Suiza = document.getElementById("ejercicio5");
+
 function mostarBanderas(){
     if (banderas.value == "Guatemala") {
-        document.getElementById("ejercicio1").style.display = "block";
-        document.getElementById("ejercicio2").style.display = "none";
-        document.getElementById("ejercicio3").style.display = "none";
-        document.getElementById("ejercicio4").style.display = "none";
-        document.getElementById("ejercicio5").style.display = "none";
+        Guatemala.style.display = "block";
+        NigeriaIndia.style.display = "none";
+        Francia.style.display = "none";
+        Suecia.style.display = "none";
+        Suiza.style.display = "none";
     }else if(banderas.value == "Nigeria-India"){
-        document.getElementById("ejercicio2").style.display = "block";
-        document.getElementById("ejercicio1").style.display = "none";
-        document.getElementById("ejercicio3").style.display = "none";
-        document.getElementById("ejercicio4").style.display = "none";
-        document.getElementById("ejercicio5").style.display = "none";
+        NigeriaIndia.style.display = "block";
+        Guatemala.style.display = "none";
+        Francia.style.display = "none";
+        Suecia.style.display = "none";
+        Suiza.style.display = "none";
     }else if(banderas.value == "Francia"){
-        document.getElementById("ejercicio3").style.display = "block";
-        document.getElementById("ejercicio1").style.display = "none";
-        document.getElementById("ejercicio2").style.display = "none";
-        document.getElementById("ejercicio4").style.display = "none";
-        document.getElementById("ejercicio5").style.display = "none";
+        Francia.style.display = "block";
+        Guatemala.style.display = "none";
+        NigeriaIndia.style.display = "none";
+        Suecia.style.display = "none";
+        Suiza.style.display = "none";
     }else if(banderas.value == "Suecia"){
-        document.getElementById("ejercicio4").style.display = "block";
-        document.getElementById("ejercicio1").style.display = "none";
-        document.getElementById("ejercicio2").style.display = "none";
-        document.getElementById("ejercicio3").style.display = "none";
-        document.getElementById("ejercicio5").style.display = "none";
+        Suecia.style.display = "block";
+        Guatemala.style.display = "none";
+        NigeriaIndia.style.display = "none";
+        Francia.style.display = "none";
+        Suiza.style.display = "none";
     }else if(banderas.value == "Suiza"){
-        document.getElementById("ejercicio5").style.display = "block";
-        document.getElementById("ejercicio1").style.display = "none";
-        document.getElementById("ejercicio2").style.display = "none";
-        document.getElementById("ejercicio3").style.display = "none";
-        document.getElementById("ejercicio4").style.display = "none";
+        Suiza.style.display = "block";
+        Guatemala.style.display = "none";
+        NigeriaIndia.style.display = "none";
+        Francia.style.display = "none";
+        Suecia.style.display = "none";
     }
     }
