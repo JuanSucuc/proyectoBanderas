@@ -10,31 +10,31 @@
 
 function mostarBanderas(){
     if (banderas.value == "Guatemala") {
-        Guatemala.style.display = "block";
+        Guatemala.style.display = "flex";
         NigeriaIndia.style.display = "none";
         Francia.style.display = "none";
         Suecia.style.display = "none";
         Suiza.style.display = "none";
     }else if(banderas.value == "Nigeria-India"){
-        NigeriaIndia.style.display = "block";
+        NigeriaIndia.style.display = "flex";
         Guatemala.style.display = "none";
         Francia.style.display = "none";
         Suecia.style.display = "none";
         Suiza.style.display = "none";
     }else if(banderas.value == "Francia"){
-        Francia.style.display = "block";
+        Francia.style.display = "flex";
         Guatemala.style.display = "none";
         NigeriaIndia.style.display = "none";
         Suecia.style.display = "none";
         Suiza.style.display = "none";
     }else if(banderas.value == "Suecia"){
-        Suecia.style.display = "block";
+        Suecia.style.display = "flex";
         Guatemala.style.display = "none";
         NigeriaIndia.style.display = "none";
         Francia.style.display = "none";
         Suiza.style.display = "none";
     }else if(banderas.value == "Suiza"){
-        Suiza.style.display = "block";
+        Suiza.style.display = "flex";
         Guatemala.style.display = "none";
         NigeriaIndia.style.display = "none";
         Francia.style.display = "none";
